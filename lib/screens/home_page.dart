@@ -9,6 +9,8 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Container(
         padding: const EdgeInsets.all(24),
+        //se define un fondo con degradado vertical 
+        //para mejorar la apariencia visual
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [Colors.indigo, Colors.black87],
@@ -21,6 +23,7 @@ class HomePage extends StatelessWidget {
           children: [
             const Icon(Icons.lock, size: 100, color: Colors.white),
             const SizedBox(height: 20),
+            //titulo principal de la aplicacion
             const Text(
               "SafeVault",
               style: TextStyle(
@@ -30,6 +33,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 10),
+            //descripcion de la app
             const Text(
               "Tu diario privado y seguro",
               style: TextStyle(color: Colors.white70),
