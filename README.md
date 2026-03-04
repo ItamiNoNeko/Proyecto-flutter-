@@ -1,17 +1,16 @@
-# safevault
+Proyecto en Flutter
 
-A new Flutter project.
+El siguiente proyecto se trata de una aplicación de notas privadas que guarda información de manera local en el dispositivo con alta fidelidad de datos.
 
-## Getting Started
+Nombre de los integrantes (Alias de GitHub):
 
-This project is a starting point for a Flutter application.
+- Alan Manuel Rejón Chulim (arejon25478-ui)
+- Oliver Uriel Ruiz Ruelas (ItamiNoNeko)
+- Yussif Eduardo Sauri Tzuc (Yussif Eduardo Sauri Tzuc)
+- Omar Daniel Tello Perez (DanielTe11o)
+  
+Profesor a cargo:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Joshua Eduardo González Ruiz
+  
+Universidad Mesoamericana de San Agustín, Octavo Semestre.
