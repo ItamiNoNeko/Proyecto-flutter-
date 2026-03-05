@@ -104,8 +104,8 @@ class _NoteEditorPageState extends State<NoteEditorPage> {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: _saveNote,
-          child: const Icon(Icons.save),
           tooltip: 'Guardar',
+          child: const Icon(Icons.save),
         ),
       ),
     );
