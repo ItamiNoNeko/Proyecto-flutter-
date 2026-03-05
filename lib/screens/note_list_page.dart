@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:safevault/screens/note_editor_page.dart';
 
 class NoteListPage extends StatelessWidget {
   const NoteListPage({super.key});
@@ -17,7 +18,12 @@ class NoteListPage extends StatelessWidget {
             leading: const Icon(Icons.note),
             title: Text("Nota ${index + 1}"),
             subtitle: const Text("Contenido privado..."),
-            onTap: () => context.go('/editor'),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => NoteEditorPage()),
+              );
+            },
           );
         },
       ),
